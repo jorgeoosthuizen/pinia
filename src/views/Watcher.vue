@@ -40,7 +40,7 @@ const vAutoFocus = {
 <template>
     <div class="watcher">
         <h1> {{ counterData.title }} </h1>
-        <input type="text" v-model="counterData.title" v-auto-focus="true">
+        <input type="text" v-model="counterData.title" v-autofocus>
         <button @click="decreaseCounter(2)">--</button>
         <button @click="decreaseCounter(1)">-</button>     
         <span>{{ counterData.count }}</span>
